@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
     origin: [
         'http://localhost:3000',
-        'http://192.168.31.155:3000',
+        'https://food-app-frontend-ztbl.onrender.com/',
         process.env.FRONTEND_URL // Will be set in Render
     ].filter(Boolean), // Remove any undefined values
     credentials: true
